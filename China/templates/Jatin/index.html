@@ -1,0 +1,901 @@
+<!doctype html>
+<html>
+{% load static %}
+
+<!-- Mirrored from mcitbh.com/design/corona_v2/site/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 May 2020 06:25:09 GMT -->
+<head>
+<meta charset="utf-8">
+<!--site title-->
+<title>Cornoa Virus COVID-19</title>
+<!-- Description, Keywords and Author -->
+<meta name="description" content="this is a corona virus website template, which can be customized easily according to ones need">
+<meta name="keywords" content="corona, COVID-19, nov-COVID19, customizable, html5">
+<meta name="author" content="Shehzad">
+
+<!-- for mobile devices -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--icon-->
+<link rel="shortcut icon" href="{% static 'img/page/icon.png' %}" type="image/x-icon" />
+<link rel="icon" href="{% static 'img/page/icon.png' %}" type="image/x-icon" />
+
+<!--page style-->
+<link href="{% static 'css/page-style.css' %}" rel="stylesheet" type="text/css" />
+
+<!--bootstrap css-->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" />
+
+<!--font awesome-->
+<link href="fonts/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+<!--animations-->
+<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" href="{% static 'js/owl-carousel/owl.carousel.css' %}"/>
+<!-- Default Theme -->
+<link rel="stylesheet" href="{% static 'js/owl-carousel/owl.theme.css' %}"/>
+
+
+<!-- Base MasterSlider style sheet -->
+<link rel="stylesheet" href="{% static 'js/masterslider/style/masterslider.css' %}" />
+<link rel="stylesheet" href="{% static 'js/masterslider/skins/default/style.css' %}" />
+<link rel="stylesheet" href="{% static 'js/masterslider/style/style.css' %}" />
+
+</head>
+
+
+
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="mainNav">
+<div class="container-fluid">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html"><img src="{% static 'img/page/logo.png' %}" alt="logo" width="130" class="img-responsive"></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+<ul class="nav navbar-nav navbar-right">
+<li><a href="index.html" style="color:#7C3CD1 !important;">home</a></li>
+<li><a href="arogyasetu.html">Arogya Setu App</a></li>
+
+
+</ul>
+
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<!--search-->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+	  <div class="close-btn">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div><!--close btn end-->
+      <form>
+      <input type="search" class="form-control" placeholder="Search.."/>
+      </form>      
+  </div>
+</div>
+<!--search end-->
+
+
+
+<!-- Master Slider -->
+<div class="master-slider ms-skin-default" id="masterslider">
+<!-- slide 1 -->
+<div class="ms-slide" data-delay="5">
+<!-- slide background -->
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/slider-1.jpg' %}" alt="Slide1 background"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="right:100px; top:50px;" height="550"
+		 	  class="ms-layer slow-circular-animation"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="left:500px; bottom:80px;" height="110"
+		 	  class="ms-layer"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="left:400px; bottom:80px;" height="60"
+		 	  class="ms-layer"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<h3 class="ms-layer title3 uppercase font-white"
+			style="left:100px; top:165px;color:#E3DDF7;"
+			data-type="text"
+			data-delay="1500"
+		 	data-duration="1500"
+		 	data-ease="easeOutExpo"
+		 	data-effect="skewleft(30,80)">corona virus</h3>
+<h3 class="ms-layer title2 uppercase font-white"
+			style="left: 100px;top: 240px;color:#7C3CD1;"
+			data-type="text"
+			data-delay="2500"
+		 	data-duration="2500"
+		 	data-ease="easeOutExpo"
+		 	data-effect="skewright(30,80)">deadly pandemic</h3>
+<h5 class="ms-layer text1 font-white"
+        	style="left: 100px; top: 315px;color:#666666;"
+            data-type="text"
+            data-effect="bottom(45)"
+            data-duration="3000"
+            data-delay="3000"
+		  data-ease="easeOutExpo">Coronaviruses are a large family of viruses which may cause illness in animals or.<br>
+ humans. In humans, several coronaviruses are known to cause respiratory<br>
+  infections ranging from the common cold to more severe diseases.</h5>
+<a class="ms-layer btn-slider uppercase"
+			style="left:100px; top: 425px;"
+			data-type="text"
+			data-delay="3500"
+			data-ease="easeOutExpo"
+			data-duration="2000"
+			data-effect="scale(1.5,1.6)" >Be Safe!</a> </div>
+<!-- end of slide -->
+
+<!-- slide 2 -->
+<div class="ms-slide" data-delay="5">
+
+<!-- slide background -->
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/slider-2.jpg' %}" alt="Slide2 background"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/2.png' %}" alt="Master Slider"
+		 	  style="left:100px; top:50px;" height="550"
+		 	  class="ms-layer"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="right:500px; bottom:80px;" height="110"
+		 	  class="ms-layer slow-circular-animation"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="right:400px; bottom:80px;" height="60"
+		 	  class="ms-layer slow-circular-animation"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<h3 class="ms-layer title3 font-white"
+			style="right:100px; top: 165px;color:#E3DDF7;"
+			data-type="text"
+			data-delay="1500"
+		 	data-duration="2000"
+		 	data-ease="easeOutExpo"
+		 	data-effect="skewleft(50,340)">be safe</h3>
+<h3 class="ms-layer title2 uppercase font-white"
+			style="right:100px;top: 240px;color:#7C3CD1;"
+			data-type="text"
+			data-delay="2500"
+		 	data-duration="2500"
+		 	data-ease="easeOutExpo"
+		 	data-effect="skewright(30,80)">stay at home</h3>
+<h5 class="ms-layer text1 font-white text-right"
+        	style="right:100px; top: 315px;color:#666666;"
+            data-type="text"
+            data-effect="bottom(45)"
+            data-duration="3000"
+            data-delay="3000"
+            data-ease="easeOutExpo">We can fight againt Corona Virus. <br>
+Stay at home and stay safe from the virus.<br>
+ <span style="font-style:italic">"COVID-19"</span></h5>
+<a class="ms-layer btn-slider uppercase"
+			style="right:100px; top: 425px;"
+			data-type="text"
+			data-delay="3500"
+			data-ease="easeOutExpo"
+			data-duration="2000"
+			data-effect="scale(1.5,1.6)" >Don't Go Out!!!</a> </div>
+<!-- end of slide -->
+
+<!-- slide 3 -->
+<div class="ms-slide" data-delay="5">
+<!-- slide background -->
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/slider-1.jpg' %}" alt="Slide3 background"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/3.png' %}" alt="Master Slider"
+		 	  style="right:100px; top:50px;" height="550"
+		 	  class="ms-layer"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="left:500px; bottom:80px;" height="110"
+		 	  class="ms-layer slow-circular-animation"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<img src="{% static 'js/masterslider/style/blank.gif' %}" data-src="{% static 'img/masterslider/1.png' %}" alt="Master Slider"
+		 	  style="left:400px; bottom:80px;" height="60"
+		 	  class="ms-layer slow-circular-animation"
+		 	  data-type="image"
+		 	  data-delay="1000"
+		 	  data-duration="3000"
+		 	  data-ease="easeOutExpo"
+		 	  data-effect="scalefrom(1.1,1.1,190,0)"/>
+<h3 class="ms-layer title3 font-white font-thin-xs"
+			style="left:100px; top:165px;color:#E3DDF7;"
+			data-type="text"
+			data-delay="1500"
+		 	data-duration="2000"
+		 	data-ease="easeOutExpo"
+		 	data-effect="skewleft(30,80)">Download</h3>
+<h3 class="ms-layer title2 uppercase font-color"
+			style="left: 100px;top: 240px;color:#7C3CD1;"
+			data-type="text"
+			data-delay="2500"
+		 	data-duration="2500"
+		 	data-ease="easeOutExpo"
+		 	data-effect="skewright(30,80)">Arogya Setu App</h3>
+<h5 class="ms-layer text1 font-white"
+        	style="left: 100px; top: 315px;color:#666666;"
+            data-type="text"
+            data-effect="bottom(45)"
+            data-duration="3000"
+            data-delay="3000"
+            data-ease="easeOutExpo">Aarogya Setu is a mobile application developed by the Government of India to <br>
+connect essential health services with the people of India in our combined <br>
+fight against  <span style="font-style:italic">"COVID-19"</span></h5>
+<a class="ms-layer btn-slider uppercase"
+			style="left:100px; top: 425px;"
+			data-type="text"
+			data-delay="3500"
+			data-ease="easeOutExpo"
+			data-duration="2000"
+			data-effect="scale(1.5,1.6)" href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&hl=en_IN">Download!</a></div>
+<!-- end of slide -->
+
+</div>
+<!-- end Master Slider -->
+
+
+
+<!--corona-counter section-->
+<!----------------------Worldwide covid 19 case-------------------------->
+<section id="corona-counter">
+<div class="container">
+<div class="row">
+    <div class="about-data animate-plus" data-animations="bounceInLeft" data-animation-when-visible="true" data-animation-reset-offscreen="false">
+<div class="section-heading">
+<h2>Worldwide</h2>
+<p>Covid 19 Case</p>
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/infected.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4>4.66M</h4>
+<p>Reported Cases</p>
+</div>
+</div><!--/.col-->
+
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/recovered.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4 class="recovered">1.7M</h4>
+<p>Recovered</p>
+</div>
+</div><!--/.col-->
+
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/deaths.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4 class="deaths">312K</h4>
+<p>deaths</p>
+</div>
+</div><!--/.col-->
+</div><!--/.row-->
+        <!------------------India Covid 19 Cases--------------->
+        <br>
+        <br>
+        <br>
+        <div class="about-data animate-plus" data-animations="bounceInLeft" data-animation-when-visible="true" data-animation-reset-offscreen="false">
+<div class="section-heading">
+<h2>Across India</h2>
+<p>Covid 19 Case</p>
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/infected.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4>90927</h4>
+<p>Reported Cases</p>
+</div>
+</div><!--/.col-->
+
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/recovered.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4 class="recovered">34109</h4>
+<p>Recovered</p>
+</div>
+</div><!--/.col-->
+
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/deaths.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4 class="deaths">2872</h4>
+<p>deaths</p>
+</div><!--/.container-->
+    <!--------India Covid 19 case------------->
+</div>
+</div>
+            <!------------------Madhya Pradesh Covid 19 Cases--------------->
+        <br>
+        <br>
+        <br>
+        <div class="about-data animate-plus" data-animations="bounceInLeft" data-animation-when-visible="true" data-animation-reset-offscreen="false">
+<div class="section-heading">
+<h2>Across Madhya Pradesh</h2>
+<p>Covid 19 Case</p>
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/infected.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4>4789</h4>
+<p>Reported Cases</p>
+</div>
+</div><!--/.col-->
+
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/recovered.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4 class="recovered">2315</h4>
+<p>Recovered</p>
+</div>
+</div><!--/.col-->
+
+<div class="col-xs-4 service-left">
+<div class="service">
+<div class="service-icon">
+<img src="{% static 'img/page/deaths.png' %}" width="60" alt="img" class="pulse">
+</div>
+<h4 class="deaths">243</h4>
+<p>deaths</p>
+</div><!--/.container-->
+    <!---------Mp Covid case--------------->
+        </div>
+    </div>
+</div>
+</div>
+
+</section>
+<!--/.section-->
+<!----------------------India Covid 19 case-------------------------->
+
+
+<!--about section-->
+<section id="about-corona">
+<div class="container">
+<div class="about-data animate-plus" data-animations="bounceInLeft" data-animation-when-visible="true" data-animation-reset-offscreen="false">
+<div class="section-heading">
+<h2>Knowledge about COVID-19</h2>
+<p>Corona Virus</p>
+</div>
+<p>In 2019, the Centers for Disease Control and Prevention (CDC) started monitoring the outbreak of a new coronavirus, SARS-CoV-2, which causes the respiratory illness now known as COVID-19. Authorities first identified the virus in Wuhan, China.
+More than 78,191 people have contracted the virus in China. Health authorities have identified many other people with COVID-19 around the world, including in the United States. On January 31, 2020, the virus passed from one person to another in the U.S.</p>
+<blockquote>The World Health Organization (WHO) have declared a public health emergency relating to COVID-19.</blockquote>
+<p>Since then, this strain has been diagnosed in several U.S. residents. The CDC have advised that it is likely to spread to more people. COVID-19 has started causing disruption in at least 25 other countries.&nbsp;<a href="https://www.who.int/india/emergencies/india-situation-report" class="theme-link">read more in WHO report Of India-...</a></p>
+</div><!--/.about data-->
+</div><!--/.container-->
+</section>
+<!--/.section-->
+
+
+
+
+<!--how it spread section-->
+<section id="spreads">
+<div class="container">
+<div class="section-heading" align="center">
+<h2>how does corona spreads</h2>
+<p></p>
+</div><!--/.section heading-->
+
+<div class="row">
+<div class="col-xs-4">
+<div class="panel">
+<img src="{% static 'img/page/deaths.png' %}" alt="img" class="img-responsive slow-circular-animation" width="60">
+<div class="panel-body">
+<h4>infected person cough</h4>
+<p>When an infected person coughs or sneezes he/she transmits the droplets into the atmosphere. From where these droplets come in contact with other people and infects them too. It’s better to use a cloth or handkerchief while sneezing this avoids containment of infection droplets.</p>
+<div class="theme-link-ct">
+
+</div>
+</div><!--/.panel-body-->
+</div><!--/.panel-->
+</div><!--/.col-->
+
+<div class="col-xs-4">
+<div class="panel">
+<img src="{% static 'img/page/recovered.png' %}" alt="img" class="img-responsive slow-circular-animation" width="60">
+<div class="panel-body">
+<h4>person to person</h4>
+<p>The virus most often spreads through people who have symptoms. But it may be possible to pass it on without showing any signs. Some people who don't know they've been infected can give it to others. This is called asympto -matic spread. You can also pass it on before you notice any signs of infection, called presymptomatic spread.</p>
+<div class="theme-link-ct">
+
+</div></div><!--/.panel-body-->
+</div><!--/.panel-->
+</div><!--/.col-->
+
+<div class="col-xs-4">
+<div class="panel">
+<img src="{% static 'img/page/infected.png' %}" alt="img" class="img-responsive slow-circular-animation" width="60">
+<div class="panel-body">
+<h4>close contact</h4>
+<p>This can happen in two ways: Direct close contact: one can get the infection by being in close contact with COVID-19 especially if they do not cover their face when coughing or sneezing. Indirect close contact: the droplets survive on surfaces and clothes for many days. </p>
+<div class="theme-link-ct">
+
+</div>
+</div><!--/.panel-body-->
+</div><!--/.panel-->
+</div><!--/.col-->
+</div><!--/.row-->
+</div><!--/.container-->
+</section>
+<!--/.section-->
+
+
+
+
+<!--symptoms of corona section-->
+<section id="symptoms">
+<div class="container">
+<div class="row">
+<div class="col-xs-6">
+<div class="section-heading">
+<h2>symptoms of corona</h2>
+<p></p>
+</div><!--/.section heading-->
+<p>People with COVID-19 generally develop signs and symptoms, including mild respiratory symptoms and fever, on an average of 5-6 days after infection (mean incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19 virus have mild disease and recover.</p>
+</div><!--/.col-->
+
+<div class="col-xs-6">
+<div class="row sub-row">
+<div class="col-xs-6">
+<ul>
+<li>Cough</li>
+<li>Fever</li>
+<li>Breath shortness</li>
+</ul>
+</div><!--/.col-->
+<div class="col-xs-6">
+<ul>
+<li>Tiredness</li>
+<li>Headache</li>
+<li>Muscle pain</li>
+</ul>
+</div><!--/.col-->
+</div><!--/.sub row-->
+</div><!--/.col-->
+</div><!--/.row-->
+</div><!--/.container-->
+<div class="wave"></div>
+</section>
+<!--/.section-->
+
+
+
+
+<!--prevention section-->
+<section id="prevention">
+<div class="container">
+<div class="row row-main">
+<div class="col-xs-6">
+<div class="animate-plus" data-animations="bounceInLeft" data-animation-when-visible="true" data-animation-reset-offscreen="false" data-animation-delay="0.3s">
+<div class="row sub-row">
+<div class="col-xs-6">
+<ul>
+<li>wash your hands</li>
+<li>dont touch your face</li>
+<li>wear a face mask</li>
+</ul>
+</div><!--/.col-->
+<div class="col-xs-6">
+<ul>
+<li>avoid close contact</li>
+<li>avoid crowded places</li>
+<li>stay at home</li>
+</ul>
+</div><!--/.col-->
+</div><!--/.sub row-->
+</div><!--/.animate-plus-->
+</div><!--/.col-->
+
+
+<div class="col-xs-6 data-prevention">
+<div class="animate-plus" data-animations="bounceInLeft" data-animation-when-visible="true" data-animation-reset-offscreen="false">
+<div class="section-heading">
+<h2>Prevention from corona</h2>
+<p></p>
+</div><!--/.section heading-->
+<p>To prevent the spread of COVID-19:
+Clean your hands often. Use soap and water, or an alcohol-based hand rub.
+Maintain a safe distance from anyone who is coughing or sneezing.
+Don’t touch your eyes, nose or mouth.
+Stay home if you feel unwell.
+If you have a fever, cough and difficulty breathing, seek medical attention.
+Follow the directions of your local health authority.
+</p>
+</div><!--/.animate-plus-->
+</div><!--/.col-->
+</div><!--/.row-->
+</div><!--/.container-->
+</section>
+<!--/.section-->
+
+
+
+
+<!--our shop-->
+<section id="shop">
+<div class="container">
+<div class="section-heading">
+<h2>To Protect Yourselves From</h2>
+<p>Covid 19</p>
+</div><!--/.section heading-->
+
+<div id="shop-carousel" class="owl-carousel">
+
+<div class="item">
+<div class="item-container" align="center">
+<a><img class="lazyOwl img-responsive" data-src="{% static 'img/product-images/product2.jpg' %}" alt="Lazy Owl Image"></a>
+
+</div>
+<div class="product-info">
+<a><h4>Masks</h4></a>
+
+</div><!--product info end-->
+<div class="amount">
+<div class="amounts">
+
+<a class="theme-link" ></i>Wear masks whenever you go outside to prevent infection. Go outside only if necessary</a>
+</div><div class="clearfix"></div>
+</div><!--amount end-->
+</div>
+
+<div class="item">
+<div align="center">
+<a ><img class="lazyOwl img-responsive" data-src="{% static 'img/product-images/product3.jpg' %}" alt="Lazy Owl Image"></a>
+</div>
+<div class="product-info">
+<a ><h4>Sanitizer</h4></a>
+
+</div><!--product info end-->
+<div class="amount">
+<div class="amounts">
+
+<a class="theme-link" ><i class="fa fa-shopping-basket"></i>Always keep a sanitizer bottle with yourself to disinfect your hands from virus.</a>
+</div><div class="clearfix"></div>
+</div><!--amount end-->
+</div>
+
+<div class="item">
+<div class="item-container" align="center">
+<a><img class="lazyOwl img-responsive" data-src="{% static 'img/product-images/product4.jpg' %}" alt="Lazy Owl Image"></a>
+
+</div>
+<div class="product-info">
+<a><h4>Gloves</h4></a>
+
+</div><!--product info end-->
+<div class="amount">
+<div class="amounts">
+
+<a class="theme-link"><i class="fa fa-shopping-basket"></i>Whenever you visit in public places or similar area ,use hand gloves to protect youself from touching infected articles.</a>
+</div><div class="clearfix"></div>
+</div><!--amount end-->
+</div>
+
+<div class="item">
+<div align="center">
+<a ><img class="lazyOwl img-responsive" data-src="{% static 'img/product-images/product5.jpg' %}" alt="Lazy Owl Image"></a>
+</div>
+<div class="product-info">
+<a><h4>Vitamin C Supplyments</h4></a>
+
+</div><!--product info end-->
+<div class="amount">
+<div class="amounts">
+
+<a class="theme-link"><i class="fa fa-shopping-basket"></i>Always have vitamin-c rich items in meal to boost your immunityto fight against the virus.</a>
+</div><div class="clearfix"></div>
+</div><!--amount end-->
+</div>
+
+<div class="item">
+<div align="center">
+<a ><img class="lazyOwl img-responsive" data-src="{% static 'img/product-images/product6.jpg' %}" alt="Lazy Owl Image"></a>
+</div>
+<div class="product-info">
+<a ><h4>Handkerchief</h4></a>
+
+</div><!--product info end-->
+<div class="amount">
+<div class="amounts">
+
+<a  class="theme-link"><i class="fa fa-shopping-basket"></i>Always have a handkerchief and use it while sneezing to avoid the containment of droplets.</a>
+</div><div class="clearfix"></div>
+</div><!--amount end-->
+</div>
+
+
+</div>
+
+</div><!--owl carousel end-->
+
+
+</div><!--/.container-->
+</section>
+<!--/.section-->
+
+
+
+
+
+<!--our professionals-->
+<section id="professionals">
+<div class="container">
+<div class="section-heading">
+<h2>Corona Fighter's</h2>
+<p>The Power Of Nation</p>
+</div><!--/.section heading-->
+<div class="row">
+<div class="col-xs-3">
+<div class="panel">
+<img src="{% static 'img/professionals/pm.png' %}" alt="img" class="img-responsive">
+
+<div class="doctor-info">
+<h4>Narendra Modi</h4>
+<p>Prime Minister Of India</p>
+</div><!--/.doctor info-->
+</a>
+</div><!--/.panel-->
+</div><!--/.col-->
+
+<div class="col-xs-3">
+<div class="panel">
+<img src="{% static 'img/professionals/police.png' %}" alt="img" class="img-responsive">
+
+<div class="doctor-info">
+<h4>Police</h4>
+<p>India</p>
+</div><!--/.doctor info-->
+</a>
+</div><!--/.panel-->
+</div><!--/.col-->
+
+<div class="col-xs-3">
+<div class="panel">
+<img src="{% static 'img/professionals/doctorr.png' %}"  alt="img" class="img-responsive">
+
+<div class="doctor-info">
+<h4>Doctor & Nurse</h4>
+<p>Health Workers</p>
+</div><!--/.doctor info-->
+</a>
+</div><!--/.panel-->
+</div><!--/.col-->
+
+<div class="col-xs-3">
+<div class="panel">
+<img src="{% static 'img/professionals/safaai.png' %}" alt="img" class="img-responsive">
+
+<div class="doctor-info">
+<h4>Cleaners</h4>
+<p>India</p>
+</div><!--/.doctor info-->
+</a>
+</div><!--/.panel-->
+</div><!--/.col-->
+
+</div><!--/.row-->
+</div><!--/.container-->
+</section>
+<!--/.section-->
+
+
+
+
+
+<!---------------------------news daily posts----------------------------->
+<section id="posts">
+<div class="container">
+<div class="row">
+<div class="col-xs-6">
+<div class="section-heading">
+<h2>latest posts</h2>
+<p>Of Covid 19</p>
+</div><!--/.section heading-->
+</div><!--/.col-->
+
+<div class="col-xs-6 news-btn-col">
+
+</div><!--/.col-->
+</div><!--/.row-->
+
+    <!-----------First news--------------->
+    {% for n in news %}
+<div class="row">
+<div class="col-xs-4">
+<div class="panel">
+<div class="panel-heading">
+<img src="{{ n.img1.url }}" alt="img" class="img-responsive">
+</div>
+    <!--/.panel-heading-->
+<div class="panel-body">
+<div class="date-name">
+<i class="fa fa-user-o"></i>{{ n.source }}&nbsp;&nbsp;<br> &nbsp;&nbsp;<i class="fa fa-calendar"></i><span>{{ n.time }}</span>
+</div>
+<h3>{{ n.heading }}</h3>
+<p>{{ n.des }}</p>
+</div><!--/.panel body-->
+</div><!--/.panel-->
+</div><!--/.col-->
+{% endfor %}
+
+</div><!--/.row-->
+
+<div class="news-btn-end" align="center">
+
+</div><!--/.news-btn-end-->
+
+</div><!--/.container-->
+</section>
+<!--/.section-->
+
+
+
+
+
+<div class="container-fluid secondary-footer" align="center">
+<div class="container">
+
+</div>
+<div class="copy-right" align="center">&copy;&nbsp;Copyright Protected 2020. Powered By Jatin & Harsh</div>
+</div><!--container end-->
+</div><!--secondary footer end-->
+<!--footer-->
+
+
+
+
+
+
+
+
+
+
+
+<!--scripts-->
+<script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("mainNav").style.padding = "5px 0px";
+	document.getElementById("mainNav").style.boxShadow = "0px 0px 7px #666666";
+  } else {
+    document.getElementById("mainNav").style.padding = "10px 0px";
+	document.getElementById("mainNav").style.boxShadow = "none";
+  }
+}
+</script>
+
+
+<!--animate-->
+<script src="{% static 'js/animate-plus.js' %}" type="text/javascript"></script>
+
+<!--owl carousel-->
+<script src="{% static 'js/owl-carousel/owl.carousel.js' %}"></script>
+<script>
+    $(document).ready(function() {
+    $("#shop-carousel").owlCarousel({
+    items :4,
+	lazyLoad : true,
+    navigation : false,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [991,3],
+	itemsTablet : [735, 2],
+	itemsMobile : [514, 1]
+    });
+    });
+</script>
+<!--/.owl carousel-->
+
+<!-- MasterSlider --> 
+<script src="{% static 'js/masterslider/jquery.easing.min.js' %}"></script> 
+<script src="{% static 'js/masterslider/masterslider.min.js' %}"></script> 
+<script>	
+(function($) {
+"use strict";	
+var slider = new MasterSlider();
+
+slider.setup('masterslider' , {
+width:1400,    // slider standard width
+height:650,   // slider standard height
+space:0,
+layout:'fullwidth',
+loop:true,
+preload:0,
+instantStartLayers:true,
+autoplay:true
+});
+})(jQuery);
+</script>
+
+
+<!--scroll to top-->
+<script>
+$(".totop").hide();
+$(function(){
+$(window).scroll(function(){
+if ($(this).scrollTop()>300)
+{
+$('.totop').fadeIn();
+} 
+else
+{
+$('.totop').fadeOut();
+}
+});
+
+$('.totop a').click(function (e) {
+e.preventDefault();
+$('body,html').animate({scrollTop: 0}, 1200);
+});
+
+});
+</script>
+</body>
+
+<!-- Mirrored from mcitbh.com/design/corona_v2/site/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 May 2020 06:26:49 GMT -->
+</html>
